@@ -32,6 +32,17 @@ header h2 {
 .container{
 
     padding-top: 30px;
+    display:flex;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+.col{
+    padding-right: 40px;
+    max-width: 600px; 
 }
 
 

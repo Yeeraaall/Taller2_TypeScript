@@ -1,18 +1,23 @@
 
-
 export class Serie
 {
+    id: number;
+    nombre: string;
+    channel: string;
+    seasons: number;
+    description: string;
+    link: string;
+    image: string;
 
  
-
     constructor
-    ( public id: number,
-     public nombre:string, 
-     public channel: string, 
-     public seasons: number,
-     public description: string,
-     public link: string,
-     public image: string )
+    (id: number,
+     nombre:string, 
+     channel: string, 
+     seasons: number,
+     description: string,
+     link: string,
+     image: string )
     {
         this.id= id;
         this.nombre = nombre;
